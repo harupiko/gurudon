@@ -1,0 +1,14 @@
+{
+    "name": "mstdn.guru extension",
+    "version": "1.0",
+    "description": "A mstdn.guru extension.",
+    "content_scripts": [
+        {
+          "matches": [
+            "https://mstdn.guru/*"
+          ],
+          "js": ["content.js"]
+        }
+      ],
+    "manifest_version": 2
+}
